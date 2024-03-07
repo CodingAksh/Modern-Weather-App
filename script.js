@@ -21,7 +21,7 @@ let submitBtn = document.querySelector(".submit")
 
 
 
-let Api_Key = 'ae2d571ddb49f582656927e34c7cf692'
+let Api_Key = 'Your_Api_Key'
 
 async function weatherData(city){
   let request = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${Api_Key}`)

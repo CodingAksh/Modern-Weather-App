@@ -35,7 +35,7 @@ async function weatherData(city){
      if (data.cod == '404') {
       alert("404 error No City Found!");
     }
-
+//here i use alert function but u can create a component which has 1 not found image and the error Message
 
   //change all the by fetching their details from the api
 

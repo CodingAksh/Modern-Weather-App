@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Weatehr App</h1>
+        <div class="card">
+            <div class="left">
+                <img class="LImg" src="images/rainy.jpg" alt="">
+                <div class="cName">
+                    <h2 class="LCity">Kolkata</h2>
+                    <h3 class="LCoun">IN</h3>
+                </div>
+                    <div class="cTemp">
+                        <span class="LTemp">27℃</span>
+                    </div>
+            </div>
+            <div class="right">
+                <div class="icon invert">
+                    <img class="icons" src="/icons/rain.svg" alt="">
+                </div>
+                <div class="main">Rain</div>
+                <div class="inputField">
+                    <input type="text" name="inputCity" id="inputCity" placeholder="enter your city">
+                    <button type="submit">
+                        <img class="submit" src="/icons/search.svg" alt="">
+                    </button>
+                </div>
+                <div class="placeName">
+                    <span class="cityName">Kolkata</span>
+                    <span class="country">IN</span>
+                </div>
+                <div class="weatherData">
+                    <div class="temp">
+                        <div class="temp">Tempreture</div>
+                        <div class="tempMet">27℃</div>
+                    </div>
+                    <div class="humidity">
+                        <div class="humi">Humidity</div>
+                        <div class="humiMet">40%</div>
+                    </div>
+                    <div class="visibility">
+                        <div class="visi">Visibility</div>
+                        <div class="visiMet">3000 mi</div>
+                    </div>
+                    <div class="widnSpeed">
+                      <div class="wind">Wind Speed</div>
+                        <div class="windMet">4 km/h</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
